@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    background-color: grey
+}
+.logo{
+    height:100px;
+    width: 100px;
+}
+header h1 img{
+    width: 650px;
+    color: red;
+    text-align: center;
+    top: 10px;
+}
+main h1{
+    color: red;
+    text-align:center ;
+}
+table, td, tr{
+    border: 5px solid white;
+    border-radius:10px ;
+    text-align: center;
+}
+.image-1 {
+    z-index: 0;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.image-2 {
+    z-index: 0;
+    position: absolute;
+    top:3530px;
+    left: 120px;
+    opacity: 0.5 ;
+}
+
+.image-3 {
+    z-index: 0;
+    position: absolute;
+    top: 3600px;
+    left: 240px;
+    opacity: 0.5 ;
+}
+.image-4 {
+    z-index: 0;
+    position: absolute;
+    top: 3700px;
+    left: 360px;
+    opacity: 0.5 ;
+}
+.image-5 {
+    z-index: 0;
+    position: absolute;
+    top: 3800px;
+    left: 240px;
+    opacity: 0.5 ;
+}
+.image-6 {
+    z-index: 0;
+    position: absolute;
+    top: 3900px;
+    left: 120px;
+    opacity: 0.5 ;
+}
+.image-7 {
+    z-index: 0;
+    position: absolute;
+    top: 4000px;
+    opacity: 0.5 ;
+}
+.image-1:hover{
+    z-index: 1;
+    opacity: 1;
+    height: 250px;
+    width: 350px;
+}
+.image-2:hover{
+    z-index: 1;
+    opacity: 1;
+    height: 250px;
+    width: 350px;
+}
+.image-3:hover{
+    z-index: 1;
+    opacity: 1;
+    height: 250px;
+    width: 350px;
+}
+.image-4:hover{
+    z-index: 1;
+    opacity: 1;
+    height: 250px;
+    width: 350px;
+}
+.image-5:hover{
+    z-index: 1;
+    opacity: 1;
+    height: 250px;
+    width: 350px;
+}
+.image-6:hover{
+    z-index: 1;
+    opacity: 1;
+    height: 250px;
+    width: 350px;
+}
+.image-7:hover{
+    z-index: 1;
+    opacity: 1;
+    height: 250px;
+    width: 350px;
+}
+footer h1{
+    text-align: center;
+    color:red;
+}
+nav {
+    border-bottom: 1px dashed navy;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 30px;
+}
